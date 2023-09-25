@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_home" android:icon="@drawable/ic_baseline_home_24" app:showAsAction="always"
+        android:orderInCategory="100" android:title="Home"
+        />
+    <item android:id="@+id/action_quiz" android:title="Quiz" android:icon="@drawable/ic_baseline_assessment_24"
+        android:orderInCategory="200" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_material" android:title="Materials"
+        android:orderInCategory="300" android:icon="@drawable/ic_baseline_menu_book_24" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_home2" android:title="Home2"
+        android:orderInCategory="300" android:icon="@drawable/ic_baseline_home_24" app:showAsAction="ifRoom"/>
+
+</menu>
